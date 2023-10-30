@@ -1,3 +1,6 @@
+/* Import */
+@import 'modules/search.css';
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -25,6 +28,9 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+
+/* Header */
 
 header {
     display: flex;
@@ -57,8 +63,8 @@ nav a {
 }
 
 nav a.active, nav a:hover {
-    color: #0065FC;
-    border-top: #0065FC 2px solid;
+    color: var(--main-color);
+    border-top: var(--main-color) 2px solid;
 }
 
 a {
@@ -66,19 +72,13 @@ a {
     text-decoration: none;
 }
 
-.recherche {
-    padding: 35px 0;
+/* Icons */
+
+.fa-location-dot {
+    color: #000000;
 }
 
-h1 {
-    font-size: 22px;
-    margin: 0;
-}
-
-.recherche .chapeau {
-    font-size: 16px;
-    margin: 8px 0 0 0;
-}
+/* Section hébergement et populaires */
 
 .section-title {
     margin: 0;
