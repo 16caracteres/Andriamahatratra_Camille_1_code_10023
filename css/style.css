@@ -216,7 +216,43 @@ a {
     margin-bottom: 5px;
 }
 
+/* Activités */
 
+.activites {
+    margin-top: 65px;
+    margin-bottom: 100px; /* à retirer une fois le footer fait */
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.activites-cards a {
+    width: 100%;
+}
+
+.card-activites {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-activites img {
+    border-radius: 20px 20px 0 0;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-activites .card-title {
+    margin-left: 19px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
