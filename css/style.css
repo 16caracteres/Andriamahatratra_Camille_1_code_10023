@@ -219,7 +219,11 @@ nav a.active, nav a:hover {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.card-subtitle {
+    font-size: 0.875rem;
 }
 
 .euro {
@@ -258,14 +262,15 @@ nav a.active, nav a:hover {
 }
 
 .hebergements-cards a{
-    min-width: 30%;
-    max-width: 30%;
+    width: 30%;
 }
-/*
-.hebergements-cards .card {
-    height: 250px;
+
+.hebergements .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-*/
+
 .hebergements-cards img {
     height: 114px;
     width: 100%;
@@ -279,6 +284,7 @@ nav a.active, nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
 }
 
 .hebergements-cards .card-title {
@@ -291,7 +297,7 @@ nav a.active, nav a:hover {
 }
 
 .hebergements-cards .card-rating {
-    margin-top: 4px;
+    margin-top: auto;
     margin-bottom: 10px;
 }
 
@@ -349,7 +355,7 @@ nav a.active, nav a:hover {
 
 .activites {
     margin-top: 65px;
-    margin-bottom: 65px; /* à retirer une fois le footer fait */
+    margin-bottom: 65px; 
 }
 
 .activites-cards {
