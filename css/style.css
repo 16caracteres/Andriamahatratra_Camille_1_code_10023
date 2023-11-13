@@ -18,7 +18,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    min-width: 1024px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -75,7 +74,7 @@ nav a {
     border-top: transparent 2px solid;
 }
 
-nav a.active, nav a:hover {
+nav a:hover {
     color: var(--main-color);
     border-top: var(--main-color) 2px solid;
 }
